@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jw/projects/aes/c#/aes/aes.csproj": {}
+  },
+  "projects": {
+    "/home/jw/projects/aes/c#/aes/aes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jw/projects/aes/c#/aes/aes.csproj",
+        "projectName": "aes",
+        "projectPath": "/home/jw/projects/aes/c#/aes/aes.csproj",
+        "packagesPath": "/home/jw/.nuget/packages/",
+        "outputPath": "/home/jw/projects/aes/c#/aes/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jw/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Fernet": {
+              "target": "Package",
+              "version": "[0.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/140/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

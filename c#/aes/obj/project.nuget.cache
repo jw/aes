@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fNPrOvdkXajjHojxLfFQgGEVBl6NkSGdcxVnHNVhIFAqHT8uZk9KHUd/v+O3kdYmRhz3fjaY77EF7F/5JPB3FA==",
+  "success": true,
+  "projectFilePath": "/home/jw/projects/aes/c#/aes/aes.csproj",
+  "expectedPackageFiles": [
+    "/home/jw/.nuget/packages/fernet/0.1.7/fernet.0.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}
