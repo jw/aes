@@ -1,3 +1,8 @@
+/home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.csprojAssemblyReference.cache
+/home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.GeneratedMSBuildEditorConfig.editorconfig
+/home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.AssemblyInfoInputs.cache
+/home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.AssemblyInfo.cs
+/home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.csproj.CoreCompileInputs.cache
 /home/jw/projects/aes/c#/aes/bin/Debug/net5.0/aes
 /home/jw/projects/aes/c#/aes/bin/Debug/net5.0/aes.deps.json
 /home/jw/projects/aes/c#/aes/bin/Debug/net5.0/aes.runtimeconfig.json
@@ -5,14 +10,9 @@
 /home/jw/projects/aes/c#/aes/bin/Debug/net5.0/aes.dll
 /home/jw/projects/aes/c#/aes/bin/Debug/net5.0/ref/aes.dll
 /home/jw/projects/aes/c#/aes/bin/Debug/net5.0/aes.pdb
-/home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.csproj.AssemblyReference.cache
-/home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.GeneratedMSBuildEditorConfig.editorconfig
-/home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.AssemblyInfoInputs.cache
-/home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.AssemblyInfo.cs
-/home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.csproj.CoreCompileInputs.cache
+/home/jw/projects/aes/c#/aes/bin/Debug/net5.0/Fernet.dll
+/home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.csproj.CopyComplete
 /home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.dll
 /home/jw/projects/aes/c#/aes/obj/Debug/net5.0/ref/aes.dll
 /home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.pdb
 /home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.genruntimeconfig.cache
-/home/jw/projects/aes/c#/aes/bin/Debug/net5.0/Fernet.dll
-/home/jw/projects/aes/c#/aes/obj/Debug/net5.0/aes.csproj.CopyComplete

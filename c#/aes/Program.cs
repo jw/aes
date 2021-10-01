@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Text;
 using Fernet;
 
 namespace aes
@@ -7,16 +9,16 @@ namespace aes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            var key = SimpleFernet.GenerateKey().UrlSafe64Decode();
-            var src = "hello";
-            var src64 = src.ToBase64String();
+            // var data = "/home/jw/projects/aes/data";
+            Console.WriteLine("Fernet");
 
-            Console.WriteLine(src64);
-            var token = SimpleFernet.Encrypt(key, src64.UrlSafe64Decode());
-            var token = Convert.FromBase64String('Td7cNxY6ucK-bBUVNxMMdqjokrLBYEXPjHS00WoszQo=');
+            // var key = SimpleFernet.GenerateKey().UrlSafe64Decode();
+            var key = File.ReadAllText("/home/jw/projects/aes/data/key");
+            Console.WriteLine(key);
+
+            var token = File.ReadAllText("/home/jw/projects/aes/data/encrypted");
             Console.WriteLine(token);
-            var decoded64 = SimpleFernet.Decrypt(key, token, out var timestamp);
+            var decoded64 = SimpleFernet.Decrypt(Base64StringExtensions.UrlSafe64Decode(key), token, out var timestamp);
             var decoded = decoded64.UrlSafe64Encode().FromBase64String();
             Console.WriteLine(decoded);
         }
