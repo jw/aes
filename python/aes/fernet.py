@@ -6,7 +6,7 @@ MESSAGE = """
 Freude, schöner Götterfunken,
 Tochter aus Elysium,
 Wir betreten feuertrunken,
-Himmlische, dein Heiligtum!"
+Himmlische, dein Heiligtum!
 """
 
 
@@ -31,4 +31,4 @@ if __name__ == '__main__':
     recreate_file(data / "decrypted", message, "decrypted")
 
     assert message.decode() == MESSAGE
-    print("Valid encryption/decryption.")
+    print(f"Created a validly encrypted message in {data}.")
