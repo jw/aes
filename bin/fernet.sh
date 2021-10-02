@@ -4,21 +4,25 @@ current_dir=$(pwd)
 script_dir=$(dirname "$0")
 
 root=${script_dir}/..
-echo "Using this root: ${root}
 
-echo "|"
-echo "| PYTHON: ENCRYPT"
-echo "|"
+root=`realpath ${root}`
+echo "Using this root: ${root}"
+
+echo '|'
+echo '| PYTHON: ENCRYPT'
+echo '|'
+
 cd ${root}/python
 poetry update
-poetry run python aes/fernet.py
+poetry run python aes/fernet.py ${root}
 
-echo "|"
-echo "| C#: DECRYPT"
-echo "|"
+echo '|'
+echo '| C#: DECRYPT'
+echo '|'
 
+cd ${current_dir}
 cd ${root}/c#/aes
 dotnet build
-dotnet run
+dotnet run Program.cs ${root}
 
 cd $current_dir

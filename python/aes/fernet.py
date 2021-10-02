@@ -1,4 +1,5 @@
 from pathlib import Path
+import sys
 
 from cryptography.fernet import Fernet
 
@@ -15,8 +16,28 @@ def recreate_file(path: Path, data: bytes, prefix: str = "> "):
     path.write_bytes(data)
 
 
+def fail(message, exit=-1):
+    print(message)
+    exit(exit)
+
+
+def get_root():
+    try:
+        root = sys.argv[1]
+    except IndexError:
+        fail("Specify the root of the project as first parameter.")
+    root = Path(root).resolve()
+    if root.exists() and root.is_dir():
+        print(f"Using {root} as root.")
+    else:
+        fail(f"Invalid project root specified: {root}.")
+    return root
+
+
 if __name__ == '__main__':
-    root = Path("/home/jw/projects/aes")
+
+    # le mise-en-place
+    root = get_root()
     data = root / "data"
     data.mkdir(exist_ok=True)
 
